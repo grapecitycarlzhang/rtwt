@@ -1,0 +1,10 @@
+{
+    "language.title":"Language:{language}",
+    "language.en":"english",
+    "language.zh":"chinese",
+    "page.footer":"ToDo Demo ©{year} Created by Somebody",
+    
+    "gc.local.ok": "Title",
+    "gc.local.cancel": "Cancel",
+    "gc.local.submit": "submit"
+}

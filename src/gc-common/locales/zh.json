@@ -1,0 +1,9 @@
+{
+    "language.title":"语言:{language}",
+    "language.en":"english",
+    "language.zh":"中文",
+    "page.footer":"任务样例 ©{year} 版权属于某人",
+    "gc.local.ok": "标题",
+    "gc.local.cancel": "取消",
+    "gc.local.submit": "提交"
+}
