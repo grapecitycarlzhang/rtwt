@@ -18,7 +18,7 @@ describe('ToDoBll', () => {
   it('inversify chains',() => {
     bll = DIEx.container.get<IToDoBll>(TYPES.IToDoBll)
     let ret = bll.deleteToDo({});
-    expect(true).is.true;
+    expect(false).is.true;
   })
 
   it('Moq for IToDoRepos',async () => {
