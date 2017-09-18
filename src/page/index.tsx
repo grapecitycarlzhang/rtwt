@@ -23,7 +23,7 @@ export class ToDoHomePage extends Component<ToDoHomePageProps, ToDoHomePageState
 
     render() {
         return <div style={{ background: '#fff', padding: 24, minHeight: 280, textAlign: 'center' }}>
-            <h1>ffffffffffffffffffffffdafdafa</h1>
+            <h1>Build with CI</h1>
             <h1>{GCGlobal.intl.formatMessage({ id: ToDoLocale.WelcomeTitle })}</h1>
             <h1><FormattedMessage id={ToDoLocale.WelcomeContent}></FormattedMessage></h1>
         </div>
