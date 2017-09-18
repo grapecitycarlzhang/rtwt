@@ -8,8 +8,8 @@ var PROJECT_ROOT = path.resolve(__dirname, '../')
 var paths = {
     root: PROJECT_ROOT, // 项目根路径
     src: path.resolve(PROJECT_ROOT, './src'), // 项目源码路径
-    build: isProduction ? path.resolve(PROJECT_ROOT, '../netcoretest/ToDoList/wwwroot/js') : path.resolve(PROJECT_ROOT, './dist'), // 产出路径
-    buildIndex: isProduction ? path.resolve(PROJECT_ROOT, '../netcoretest/ToDoList/Views/Home') : path.resolve(PROJECT_ROOT, './dist'), // 产出路径
+    build: isProduction ? path.resolve(PROJECT_ROOT, '../auth-view/ToDoList/wwwroot/js') : path.resolve(PROJECT_ROOT, './dist'), // 产出路径
+    buildIndex: isProduction ? path.resolve(PROJECT_ROOT, '../auth-view/ToDoList/Views/Home') : path.resolve(PROJECT_ROOT, './dist'), // 产出路径
     publicPath: isProduction ? '/js/' : ''
 }
 
