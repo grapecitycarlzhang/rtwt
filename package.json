@@ -20,7 +20,7 @@
         "dev:loc": "npm run cfg:loc && npm run dev",
         "dev:prod": "npm run cfg:prod && npm run dev",
         "start": "npm run dev:loc",
-        "test": "mocha --require config/dom.env.js -r ts-node/register test/**/*.test.ts* --colors --reporter tap"
+        "test": "mocha --require config/dom.env.js -r ts-node/register test/**/*.test.ts* --colors --reporter tap > test-reporter.log"
     },
     "keywords": [],
     "author": "GrapeCity",
